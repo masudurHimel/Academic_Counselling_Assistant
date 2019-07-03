@@ -1,4 +1,4 @@
-#Academic-Counselling-Assistant|ACA
+<b>Academic-Counselling-Assistant|ACA</b>
 This is a complete and dynamic web application, designed and developed for CSE327 (Software Engineering) course (North South University).
 Project description: This website is targeted for the University of Higher Secondary level students who want to go abroad for their further higher education. This website contains all the information of the top 100 universities and can be updated on regular basis. Here a student can- 
 •	Search university details (like #Ranking, #Tuition Fees, #Employment Ratings etc.)
