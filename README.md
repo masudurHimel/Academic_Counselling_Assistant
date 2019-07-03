@@ -13,6 +13,3 @@ This is a complete and dynamic web application, designed and developed for CSE32
 **In this repository only a video demo is presented with the SRS and SDS<br>
 **For fully completed code, feel free to give me an email by mentioning the purpose.<br></b>
 
-
-
-Contributor : Md. Masudur Rahman, Shadab Hafiz Chowdhury
