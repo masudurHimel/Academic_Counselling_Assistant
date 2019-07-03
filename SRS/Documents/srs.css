@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+    overflow-x: hidden;
+}
+body {
+    padding: 2em 2em 2em 2em;
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: 'Roboto', sans-serif;
+}
+.toc {
+    position: fixed;
+    left: 2em;
+    top: 5em;
+    padding: 1em;
+    width: 17em;
+    line-height: 2;
+    height: 80%;
+    overflow: auto;
+}
+.toc ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.toc ul ul {
+    padding-left: 2em;
+}
+.toc li a {
+    display: inline-block;
+    color: #aaa;
+    text-decoration: none;
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+}
+.toc li.visible > a {
+    color: #111;
+    transform: translate(5px);
+}
+.toc-marker {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 280%;
+    z-index: -1;
+
+}
+.toc-marker path {
+    transition: all 0.3s ease;
+}
+.contents {
+
+    margin-left: 17em;
+    padding: 1em;
+    max-width: 800px;
+    font-size: 1.2em;
+    font-family: 'Frank Ruhl Libre', sans-serif;
+}
+.contents img {
+    max-width: 100%;
+}
+.contents .code-block {
+    white-space: pre;
+    overflow: auto;
+    max-width: 100%;
+}
+.contents .code-block code {
+    display: block;
+    background-color: #f9f9f9;
+    padding: 10px;
+}
+.contents .code-inline {
+    background-color: #f9f9f9;
+    padding: 4px;
+}
+.contents h2, .contents h3 {
+    padding-top: 1em;
+}
+@media screen and (max-width: 1200px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+
+/*scrollbar css*/
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/*
+Table css
+ */
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+/*
+top button css
+ */
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: transparent;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+
+/*for printing
+ */
+
+#printable { display: none; }
+
+@media print
+{
+    #non-printable { display: none; pointer-events: none }
+    #printable { display: block; }
+}
+
+.pz {
+    padding: 1em;
+}
+
+
+/*
+for search bar
+ */
+
+#mySearch {
+    width: 100%;
+    font-size: 18px;
+    padding: 11px;
+    border:1px solid #ddd;
+}
