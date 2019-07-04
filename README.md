@@ -14,7 +14,7 @@ This is a complete and dynamic web application, designed and developed for CSE32
 <<<<<<< HEAD
 **For fully completed code, feel free to give me an email by mentioning the purpose.<br></b> <br><br>
 
-##License & copyright
-© Md. Masudur Rahman, Shadab Hafiz Choudhury
+<b>##License & copyright</b><br>
+© Md. Masudur Rahman, Shadab Hafiz Choudhury<br>
 Licensed under the [MIT License](LICENSE)
 
