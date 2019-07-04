@@ -11,4 +11,10 @@ This is a complete and dynamic web application, designed and developed for CSE32
 <br><br>
 <b>**For more information, see SRS and SDS.<br>
 **In this repository only a video demo is presented with the SRS and SDS<br>
-**For fully completed code, feel free to give me an email by mentioning the purpose.<br></b>
+**For fully completed code, feel free to give me an email by mentioning the purpose.<br></b> <br><br>
+
+##License & copyright
+© Md. Masudur Rahman, Shadab Hafiz Choudhury
+Licensed under the [MIT License](LICENSE)
+
+
