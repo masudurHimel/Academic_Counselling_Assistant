@@ -20,11 +20,11 @@ This is a complete and dynamic web application, designed and developed for CSE32
   <li>Symfony</li>
   <li>Html</li>
   <li>Bootstrap</li>
-</u>
+</u> <br><br>
   
   
 
-**For fully completed code, feel free to give me an email by mentioning the purpose.<br></b> <br><br>
+<b>**For fully completed code, feel free to give me an email by mentioning the purpose.<br></b> <br><br>
 
 <b>##License & copyright</b><br>
 © Md. Masudur Rahman, Shadab Hafiz Choudhury<br>
