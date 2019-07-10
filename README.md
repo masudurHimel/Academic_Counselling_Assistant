@@ -11,7 +11,7 @@ This is a complete and dynamic web application, designed and developed for CSE32
 <br><br>
 <b>**For more information, see SRS and SDS.<br>
 **In this repository only a video demo is presented with the SRS and SDS<br>
-<<<<<<< HEAD
+
 **For fully completed code, feel free to give me an email by mentioning the purpose.<br></b> <br><br>
 
 <b>##License & copyright</b><br>
